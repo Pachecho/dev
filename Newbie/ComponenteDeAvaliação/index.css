@@ -1,0 +1,172 @@
+* {
+    padding: 0%;
+    border: 0ch;
+    margin: 0%;
+}
+
+body {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(32, 32, 32);
+    align-items: center;
+    justify-content: center;
+    user-select: none;
+}
+
+.caixa {
+    display: inline;
+    background-color: rgb(30, 25, 53);  
+    height: 300px;
+    width: 300px;
+    padding: 30px;
+    border-radius: 20px;
+}
+
+.estrela {
+    display: flex;
+    background-color: rgb(60, 51, 104);
+    width: 17px;
+    height: 17px;
+    align-items: center;
+    border: 10px rgb(60, 51, 104) solid;
+    border-radius: 50%;
+}
+
+.descricao {
+    display: inline;  
+}
+
+h1 {
+    color: whitesmoke;
+}
+
+p {
+    color: gray
+}
+
+button {
+    color: gray;
+    font-size: large;
+}
+
+.notas {
+    display: flex;
+    justify-content: center;
+    height: 36px;
+    
+}
+
+#notaone:hover {
+    color: white;
+    background-color: rgb(94, 94, 94);
+    cursor: pointer
+}
+
+#notatwo:hover {
+    color: white;
+    background-color: rgb(94, 94, 94);
+    cursor: pointer
+}
+
+#notathree:hover {
+    color: white;
+    background-color: rgb(94, 94, 94);
+    cursor: pointer
+}
+
+#notafour:hover {
+    color: white;
+    background-color: rgb(94, 94, 94);
+    cursor: pointer
+}
+
+#notafive:hover {
+    color: white;
+    background-color: rgb(94, 94, 94);
+    cursor: pointer
+}
+
+#notaone {
+    display: flex;
+    background-color: rgb(60, 51, 104);
+    width: 6px;
+    height: 6px;
+    padding: 20px;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    margin-right: 15px;
+}
+
+
+#notatwo {
+    display: flex;
+    background-color: rgb(60, 51, 104);
+    width: 6px;
+    height: 6px;
+    padding: 20px;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    margin-right: 15px;    
+}
+
+#notathree {
+    display: flex;
+    background-color: rgb(60, 51, 104);
+    width: 6px;
+    height: 6px;
+    padding: 20px;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    margin-right: 15px;   
+}
+
+#notafour {
+    display: flex;
+    background-color: rgb(60, 51, 104);
+    width: 6px;
+    height: 6px;
+    padding: 20px;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    margin-right: 15px;   
+}
+
+#notafive {
+    display: flex;
+    background-color: rgb(60, 51, 104);
+    width: 6px;
+    height: 6px;
+    padding: 20px;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center; 
+}
+
+.botao {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    padding-top: 30px;
+}
+
+.button {
+    color: white;
+    background-color:hsl(25, 97%, 53%);
+    width: 300px;
+    height: 40px;
+    border-radius: 60px;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+}
+
+.button:hover {
+    color: hsl(25, 97%, 53%);
+    background-color: white;
+    cursor: pointer
+}

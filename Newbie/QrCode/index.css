@@ -1,0 +1,45 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    border: 0ch;
+}
+
+body {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    background-color: hsl(220, 9%, 75%);
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+img {
+    width: 250px;
+    width: 250px;
+    border-radius: 10px;
+}
+
+h2 {
+    font-size: larger;
+}
+
+p {
+    font-size: small;
+    color: gray;
+}
+
+.body {
+    border-radius: 20px;
+    background-color: white;
+    padding: 15px;
+}
+
+.titulo {
+    padding-top: 15px;
+}
+
+.footer {
+    padding-bottom: 20px;
+}
+
