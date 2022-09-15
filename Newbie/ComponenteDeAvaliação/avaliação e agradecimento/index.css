@@ -57,37 +57,18 @@ button {
     
 }
 
-#notaone:hover {
-    color: white;
-    background-color: rgb(94, 94, 94);
-    cursor: pointer
+.note.color {
+    background-color: hsl(25, 97%, 53%) ;
+    
 }
 
-#notatwo:hover {
-    color: white;
-    background-color: rgb(94, 94, 94);
-    cursor: pointer
+.note.color:hover {
+    color: black;
+    background-color: hsl(25, 97%, 53%);
+    cursor: default;  
 }
 
-#notathree:hover {
-    color: white;
-    background-color: rgb(94, 94, 94);
-    cursor: pointer
-}
-
-#notafour:hover {
-    color: white;
-    background-color: rgb(94, 94, 94);
-    cursor: pointer
-}
-
-#notafive:hover {
-    color: white;
-    background-color: rgb(94, 94, 94);
-    cursor: pointer
-}
-
-#notaone {
+.note {
     display: flex;
     background-color: rgb(60, 51, 104);
     width: 6px;
@@ -99,53 +80,12 @@ button {
     margin-right: 15px;
 }
 
-
-#notatwo {
-    display: flex;
-    background-color: rgb(60, 51, 104);
-    width: 6px;
-    height: 6px;
-    padding: 20px;
-    border-radius: 50%;
-    justify-content: center;
-    align-items: center;
-    margin-right: 15px;    
+.note:hover {
+    color: white;
+    background-color: rgb(94, 94, 94);
+    cursor: pointer
 }
 
-#notathree {
-    display: flex;
-    background-color: rgb(60, 51, 104);
-    width: 6px;
-    height: 6px;
-    padding: 20px;
-    border-radius: 50%;
-    justify-content: center;
-    align-items: center;
-    margin-right: 15px;   
-}
-
-#notafour {
-    display: flex;
-    background-color: rgb(60, 51, 104);
-    width: 6px;
-    height: 6px;
-    padding: 20px;
-    border-radius: 50%;
-    justify-content: center;
-    align-items: center;
-    margin-right: 15px;   
-}
-
-#notafive {
-    display: flex;
-    background-color: rgb(60, 51, 104);
-    width: 6px;
-    height: 6px;
-    padding: 20px;
-    border-radius: 50%;
-    justify-content: center;
-    align-items: center; 
-}
 
 .botao {
     display: flex;
@@ -170,3 +110,4 @@ button {
     background-color: white;
     cursor: pointer
 }
+

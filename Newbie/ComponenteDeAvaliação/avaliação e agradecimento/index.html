@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+  <title>Rating</title>
+  <link rel="stylesheet" href="./index.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="../images/favicon-32x32.png">
+  <script src="./index.js"></script>
+</head>
+
+<body>
+  <div class="caixa">
+    <div class="estrela">
+      <img src="../images/icon-star.svg" alt="error">
+    </div>
+    <div class="descricao">
+      <br>
+      <h1>How did we do?</h1>
+      <p>Please let us know how we did with your support request. All feedback is appreciated to help us improve our offering!</p> 
+      <br> <br>
+    </div>
+    <div class="notas">
+      <div class="one note" id="notaone" value="1" onclick="trocarCor(event)">1</div>
+      <div class="two note" id="notatwo" value="2" onclick="trocarCor(event)">2</div>
+      <div class="three note" id="notathree" value="3" onclick="trocarCor(event)">3</div>
+      <div class="four note" id="notafour" value="4" onclick="trocarCor(event)">4</div>
+      <div class="five note" id="notafive" value="5" onclick="trocarCor(event)">5</div>
+    </div>
+    <br>
+  
+    <div class="botao">
+      <a href="./thank.html"><input type="button" value="Submit" class="button" onclick="valor()"></a>
+    </div>
+  </div>
+</body>
+</html>
